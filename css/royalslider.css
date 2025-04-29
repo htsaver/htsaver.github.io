@@ -1,0 +1,35 @@
+.royalSlider { position:relative; width:1080px; height:425px; overflow:hidden; }
+.royalSlider .royalWrapper { overflow:hidden; position:relative; width:100%; height:100%; }
+.royalSlider .royalSlide, .royalSlider .royalWrapper { }
+.royalSlider .royalSlidesContainer { position:relative; left:0; top:0 !important; list-style:none !important; margin:0 !important; padding:0 !important; border:0 !important; }
+.royalSlider .royalSlide { padding:0 !important; margin:0 !important; border:0 !important; list-style:none !important; position:relative; float:left; overflow:hidden; }
+.royalSlider .arrow { width:52px; height:52px; top:50%; margin-top:-45px; cursor:pointer; display:block; position:absolute; z-index:25; }
+.royalSlider .arrow:hover { }
+.royalSlider .arrow.disabled { }
+.royalSlider .arrow.left { background-position:top left; left:0; }
+.royalSlider .arrow.right { background-position:top right; right:0;margin-left:-20px; }
+.royalSlider .royalControlNavOverflow { width:100%; overflow:hidden; position:absolute; margin-top:-20px; z-index:25; }
+.royalSlider .royalControlNavCenterer { float:left; position:relative; left:-50%; }
+.royalSlider .royalControlNavContainer { float:left; position:relative; left:50%; }
+.royalSlider .royalControlNavThumbsContainer { left:0; position:relative; }
+.royalSlider .thumbsAndArrowsContainer { overflow:hidden; width:100%; position:relative; }
+.royalSlider .royalControlNavOverflow.royalThumbs { width:auto; position:relative; overflow:hidden; margin-top:4px; }
+
+.royalSlider .royalControlNavOverflow a{ background:#0C0 none no-repeat scroll 0 0; width:20px; height:20px; float:left; cursor:pointer; position:relative; display:block; text-indent:-9999px; }
+.royalSlider .royalControlNavOverflow a.current { background-color:#C00; }
+.royalSlider .royalControlNavOverflow a:hover { background-color:#00C; }
+.royalSlider .royalControlNavOverflow a.royalThumb { width:144px; height:60px; margin-right:4px; }
+.royalSlider .royalControlNavOverflow a.royalThumb.current { background-position:-3px -3px  !important; border:3px solid #C00 !important; width:138px; height:54px; }
+.royalSlider .royalControlNavOverflow a.royalThumb:hover { background-position:-3px -3px; border:3px solid #00C; width:138px; height:54px; }
+.royalSlider .thumbsArrow { width:38px; height:68px; cursor:pointer; display:block; position:relative; z-index:25; background:#C99; }
+.royalSlider .thumbsArrow.left { float:left; }
+.royalSlider .thumbsArrow.right { float:right; }
+.royalSlider .thumbsArrow:hover { }
+.royalSlider .thumbsArrow.disabled { }
+.royalSlider .royalCaption { z-index:20; display:block; position:absolute; left:0; top:0; }
+.royalSlider .royalCaptionItem { position:absolute; left:0; top:0; margin:0; padding:0; }
+.royalSlider .royalLoadingScreen { background:#FFF; width:100%; height:100%; position:absolute; z-index:99;	}
+.royalSlider .royalLoadingScreen p { width:100%; position:absolute;	margin:0 auto; top:45%; text-align:center; }
+.royalSlider .royalPreloader { position:absolute; width:24px; height:24px; left:50%; top:50%; margin-left:-12px; margin-top:-12px; z-index:0; background-image:url("../images/preloader.gif"); }
+.royalSlider .fade-container .royalSlide { position:absolute; left:0; top:0; list-style-type:none; margin:0; padding:0; z-index:10; }
+.royalSlider .royalImage { max-width:none; margin:0; padding:0 !important; border:0 !important; }

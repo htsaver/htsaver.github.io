@@ -1,0 +1,16 @@
+#banner-rotator { max-width:1080px; min-width:1080px; margin:0 auto; }
+#banner-rotator .innerShadow { width:100%; position:absolute; right:0; height:50px; }
+#banner-rotator .innerShadow.top { top:0; -moz-box-shadow:inset 0px 2px 2px rgba(0,0,0,0.3); -webkit-box-shadow:inset 0px 2px 2px rgba(0,0,0,0.3); box-shadow:inset 0px 2px 2px rgba(0,0,0,0.3); }
+#banner-rotator .innerShadow.bottom { bottom:0; -moz-box-shadow:inset 0px -2px 2px rgba(0,0,0,0.3); -webkit-box-shadow:inset 0px -2px 2px rgba(0,0,0,0.3); box-shadow:inset 0px -2px 2px rgba(0,0,0,0.3); }
+#banner-rotator.royalSlider .royalWrapper { /*background:#fff !important;*/ }
+#banner-rotator .royalCaptionItem { padding:5px 10px; }
+#banner-rotator .sgTopText { font-size:30px; line-height:30px; font-weight:bold; background:url("../images/i-transparent-black.png"); color:#fff; }
+#banner-rotator .sgMidText { font-size:48px; line-height:48px; font-weight:bold; background:url("../images/i-transparent-black.png"); color:#fff; }
+#banner-rotator .sgSmallText { font-size:30px; line-height:30px; font-weight:bold; background:url("../images/i-transparent-black.png"); color:#fff; }
+#banner-rotator .tintButton { background:no-repeat 0 0; background-color:#33383e; color:#eaeaea; cursor:pointer; padding:5px 12px; -moz-transition:background-color .2s ease-out; -o-transition:background-color .2s ease-out; transition:background-color .2s ease-out; text-decoration:none; }
+#banner-rotator .tintButton:hover { background-color:#eaeaea; color:#33383e; }
+#banner-rotator .royalCaption { position:absolute; top:0; right:0; }		
+.royalCaption { position:static; width:100%; text-align:right; }
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }
